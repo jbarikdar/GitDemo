@@ -27,6 +27,8 @@ public class BaseTest {
 		dr.findElement(By.id("myRewardsLabel-container")).click();
 		dr.findElement(By.id("email")).sendKeys("bittech@tech.com");
 		dr.findElement(By.id("pw-input")).sendKeys("password");
+		System.out.println("Git Test1");
+		System.out.println("Git Test 2");
 		dr.quit();
 	}
 }
